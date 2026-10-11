@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PickUpCode</string>
+    <string name="pdd_name">拼多多身份码</string>
+    <string name="tb_name">淘宝身份码</string>
+    <string name="cn_name">菜鸟身份码</string>
 </resources>

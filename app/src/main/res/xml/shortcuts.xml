@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_pdd"
+        android:shortcutId="pinduoduo"
+        android:shortcutShortLabel="@string/pdd_name">
+        <intent
+            android:action="com.pickupcode.OPEN_PDD"
+            android:targetClass="com.ashenmajo.pickupcode.MainActivity"
+            android:targetPackage="com.ashenmajo.pickupcode" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tb"
+        android:shortcutId="taobao"
+        android:shortcutShortLabel="@string/tb_name">
+        <intent
+            android:action="com.pickupcode.OPEN_TB"
+            android:targetClass="com.ashenmajo.pickupcode.MainActivity"
+            android:targetPackage="com.ashenmajo.pickupcode" />
+    </shortcut>    <shortcut
+    android:enabled="true"
+    android:icon="@drawable/ic_cn"
+    android:shortcutId="cainiao"
+    android:shortcutShortLabel="@string/cn_name">
+    <intent
+        android:action="com.pickupcode.OPEN_CN"
+        android:targetClass="com.ashenmajo.pickupcode.MainActivity"
+        android:targetPackage="com.ashenmajo.pickupcode" />
+</shortcut>
+
+</shortcuts>
